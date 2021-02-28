@@ -1,14 +1,17 @@
 * {
     box-sizing: border-box;
 }
+
 h1, h2, h3, h4, h5, h6, p, body {
     margin: 0;
     padding: 0;
 }
+
 body {
-    font:18px 'Gilroy', sans-serif;
+    font: 18px 'Gilroy', sans-serif;
     line-height: 22px;
 }
+
 @media (min-width: 320px) {
     .header_wrapper {
         margin: 65px 20px 0 20px;
@@ -25,6 +28,7 @@ body {
         line-height: 55px;
         font-weight: bold;
     }
+
     .header-about {
         margin: 22px 0 35px 0;
     }
@@ -33,16 +37,19 @@ body {
         width: 100%;
         margin-bottom: 80px;
     }
+
     /* about */
     .about {
         background-color: #F6F6F6;
     }
+
     .about_title {
         font-size: 34px;
         line-height: 42px;
         text-align: center;
         padding: 80px 0 30px 0;
     }
+
     .about_text {
         text-align: center;
         padding: 30px 27px 12px 27px;
@@ -50,8 +57,61 @@ body {
         flex-direction: column;
         justify-content: space-between;
     }
+
     .about_text p {
-    	padding-bottom: 60px;
+        padding-bottom: 60px;
+    }
+
+    /*skills*/
+    .skills_wrapper {
+        text-align: center;
+        padding: 80px 0 15px 0;
+
+    }
+
+    .skills_title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .skills_mastery {
+        margin: 50px 0 50px 0;
+    }
+
+    .skills-technology {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-technology p {
+        margin: 25px 0 40px 0;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        width: 80px;
+        height: 30px;
+    }
+
+    .skills-technology > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .technology_rating {
+        margin-bottom: 80px;
+    }
+
+    .photoshop {
+        background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%)
+    }
+
+    .illustrator {
+        background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%)
+    }
+
+    .afterEffect {
+        background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
     }
 
 

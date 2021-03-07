@@ -1,0 +1,146 @@
+@media (min-width: 1445px) {
+
+    .skills_wrapper,
+    .header_wrapper,
+    .portfolio-wrapper {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    .main-wrapper {
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .header_nav {
+        display: block;
+    }
+
+    .menu-img {
+        display: none;
+    }
+
+    .user-info {
+        margin: 40px 0 30px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-about {
+        padding-top: 40px;
+        color: #070707;
+    }
+
+    .toggle-lang {
+        display: block;
+        transform: rotate(-90deg);
+        padding-top: 80px;
+
+    }
+
+    .toggle-lang > a {
+        color: #828282;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .toggle-lang > a:focus {
+        color: #000000;
+    }
+
+
+    .nav_items {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: 0.1em solid #828282;
+    }
+
+    .nav_items a {
+        text-decoration: none;
+        padding: 30px 0 30px 0;
+        color: #828282;
+        font-weight: bold;
+    }
+
+    .nav_items a:focus {
+        color: #000000;
+    }
+
+    .header-name {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+
+    .main_img {
+        height: 390px;
+        display: none;
+    }
+
+    .main_img_large {
+        display: block;
+    }
+
+    .me-img {
+        padding-bottom: 100px;
+    }
+
+    /* about */
+    .about_text {
+        margin: 0 auto;
+        text-align: center;
+        width: 485px;
+    }
+
+    /*skills*/
+    .skills-technology-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skill-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /*Portfolio*/
+    .portfolio_img {
+        display: none;
+    }
+
+    .portfolio_img_big {
+        display: block;
+    }
+
+    .brand-name {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Footer*/
+    .footer-wrapper {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .send_button {
+        padding: 13px 30px;
+        cursor: pointer;
+        border: 2px solid #ffffff;
+    }
+    .send_button:hover {
+        color: #000000;
+        background-color: #ffffff;
+        border: 2px solid #000000;
+        font-weight: bold;
+    }
+
+    .footer_like {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+}
